@@ -1,24 +1,30 @@
-# README
+# RailsTutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on rails tutorial repository
 
-Things you may want to cover:
+## Configuration
 
-* Ruby version
+### Version
 
-* System dependencies
+- Ruby: 2.7.1
+- rails: 6.0.3
 
-* Configuration
+### Database
 
-* Database creation
+- sqlite3
 
-* Database initialization
+## Install
 
-* How to run the test suite
+- node.js
+- npm
+- yarn
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+bundle install --path vendor/bundle
+```
 
-* Deployment instructions
+## Usage
 
-* ...
+```bash
+bundle exec rails s
+```
