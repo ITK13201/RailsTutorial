@@ -42,5 +42,6 @@ yarn-debug.log*
 
 # ===========================================
 
-vendor/
-*code-workspace
+.ruby-version
+vendor/bundle
+*.code-workspace
