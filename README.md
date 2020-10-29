@@ -1,4 +1,4 @@
-# RailsTutorial
+# snchat
 
 Ruby on rails tutorial repository
 
