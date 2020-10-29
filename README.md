@@ -1,6 +1,6 @@
 # snchat
 
-Ruby on rails tutorial repository
+I created a twitter-like social network service.
 
 ## Configuration
 
