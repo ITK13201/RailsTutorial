@@ -17,5 +17,12 @@ module Snchat
     # the framework and any gems in your application.
 
     config.read_encrypted_secrets = true
+
+    config.generators do |g|
+      g.skip_routes true
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+    end
   end
 end
