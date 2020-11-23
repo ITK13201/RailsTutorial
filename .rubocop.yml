@@ -1,8 +1,10 @@
 inherit_from: .rubocop_todo.yml
 
 AllCops:
+  TargetRubyVersion: 2.7.1
   Exclude:
     - db/**/*
+    - vendor/**/*
 
 # front comment of class and module
 Documentation:
