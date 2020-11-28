@@ -92,6 +92,9 @@ GEM
     concurrent-ruby (1.1.7)
     crass (1.0.6)
     database_cleaner (1.8.5)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.11)
     debug_inspector (0.0.3)
     diff-lcs (1.4.4)
     erubi (1.9.0)
@@ -136,7 +139,7 @@ GEM
       childprocess (>= 0.6.3, < 5)
       iniparse (~> 1.4)
     parallel (1.20.1)
-    parser (2.7.2.0)
+    parser (2.7.1.5)
       ast (~> 2.4.1)
     popper_js (1.16.0)
     public_suffix (4.0.6)
@@ -208,6 +211,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-ast (1.1.1)
       parser (>= 2.7.1.5)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
     ruby-progressbar (1.10.1)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
@@ -278,17 +283,20 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   database_cleaner
+  debase
   factory_girl_rails
   jbuilder (~> 2.7)
   jquery-rails
   listen (~> 3.2)
   overcommit
   parallel
+  parser (~> 2.7.1.5)
   popper_js (>= 1.12.3)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
   rspec-rails
   rubocop
+  ruby-debug-ide
   sass-rails (>= 6)
   selenium-webdriver
   spring

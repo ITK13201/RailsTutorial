@@ -2,12 +2,15 @@ inherit_from: .rubocop_todo.yml
 
 AllCops:
   TargetRubyVersion: 2.7.1
+  NewCops: enable
   Exclude:
     - db/**/*
     - vendor/**/*
+    - node_modules/**/*
+    - bin/**/*
 
 # front comment of class and module
-Documentation:
+Style/Documentation:
   Enabled: false
 
 # Jananese comment
@@ -15,7 +18,7 @@ Style/AsciiComments:
   Enabled: false
 
 # line length
-Metrics/LineLength:
+Layout/LineLength:
   Max: 120
 
 # line length of block
@@ -23,3 +26,6 @@ Metrics/BlockLength:
   Exclude:
     - spec/**/*
     - config/**/*
+
+
+# from error message
